@@ -1,39 +1,34 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import wgLogo from './assets/wgLogo'
+import wgLogo from './assets/wg-logo.png'
+import background from './assets/newFondo.png';
+import { Grid, Box, Typography, Button } from '@mui/material';
+import construction from './pages/Construction'
+import { useNavigate } from 'react-router-dom';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const navigate = useNavigate();
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://www.twitch.tv/WhispCL" target="_blank">
-          <img src={wgLogo} className="logo react" alt="WG logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <Grid container display='flex' sx={{backgroundImage: `url(${background})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '100vw',
+    height: '100vh',
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    }}>
+      <Grid container sx={{display:'flex', alignContent:'center', justifyContent:'center', flexDirection:'column', mt: 6,}} >
+        <Grid item>
+        <img width='256' src={wgLogo} href= 'https://twitter.com/whisp_gaming' /> 
+        </Grid>
+        <Typography variant='h1'>Whisp Gaming</Typography>
+        
+      </Grid>
+    </Grid>
+  );
 }
 
 export default App
