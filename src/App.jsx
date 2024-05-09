@@ -1,34 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import wgLogo from './assets/wg-logo.png'
-import background from './assets/newFondo.png';
-import { Grid, Box, Typography, Button } from '@mui/material';
-import construction from './pages/Construction'
-import { useNavigate } from 'react-router-dom';
-import './App.css'
+import React from 'react';
+import { Route, Routes, Router } from 'react-router-dom';
+import Construction from './pages/Construction'
+import About from './pages/About'
+import Home from './pages/Home'
 
 function App() {
-  const navigate = useNavigate();
-  return (
-    <Grid container display='flex' sx={{backgroundImage: `url(${background})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    width: '100vw',
-    height: '100vh',
-    position: 'fixed',
-    top: 0,
-    left: 0,
-    }}>
-      <Grid container sx={{display:'flex', alignContent:'center', justifyContent:'center', flexDirection:'column', mt: 6,}} >
-        <Grid item>
-        <img width='256' src={wgLogo} href= 'https://twitter.com/whisp_gaming' /> 
-        </Grid>
-        <Typography variant='h1'>Whisp Gaming</Typography>
-        
-      </Grid>
-    </Grid>
-  );
-}
+    return (
+        <>
+            
+                <Routes>
+                    <Route path= 'whisp-gaming/' element={<Construction/>}/>
+                    <Route path= 'whisp-gaming/About' element={<About/>}/>
+                    <Route path= 'whisp-gaming/Home' element={<Home/>}/>
+                </Routes>
+            
+        </>
+    );
+};
 
-export default App
+export default App;
