@@ -18,8 +18,8 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function Home() {
   const navigate = useNavigate();
-  const handleAbout = () => {
-    navigate("/whisp-gaming/about");
+  const handleBack = () => {
+    navigate("/whisp-gaming");
   };
   return (
     <Grid container spacing={1} sx={{ color: "red" }}>
@@ -33,7 +33,7 @@ function Home() {
       <Grid item xs={2} md={3}>
         <Item>xs=6 md=4</Item>
       </Grid>
-      <Button onClick={() =>{ handleHome()}}>Home Page</Button>
+      <Button onClick={() =>{ handleBack()}}>Back</Button>
     </Grid>
   );
 }
