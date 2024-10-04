@@ -5,7 +5,8 @@ function About() {
     return(
         <div>
             About Page
-            <Link to='/home'>Go to Home</Link>
+            <br/>
+            <Link to='/whisp-gaming'>Go to Home</Link>
         </div>
     );
 }
