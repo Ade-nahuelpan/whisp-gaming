@@ -5,7 +5,7 @@ import WgData from './assets/WG.json'
 
 
 export default function RecipeReviewCard() {
-     const { nickname, characters, games, tournaments, information } = WgData.players;
+     
   return (
     <>
     {WgData.players.map((player, index) =>(
