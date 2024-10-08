@@ -1,0 +1,115 @@
+{
+    "players": [
+        {      
+      "nickname": "Whisp",
+      "information": "Lorem impsum culiao bacán el whisp de whisp gaming jefe supremo JD como canguro culiao AAAAAAA",
+      "characters": [
+        {
+          "name": "Goldlewis Dickinson",
+          "game": "Guilty Gear -Strive-"
+        },
+        {
+          "name": "ABA",
+          "game": "Guilty Gear -Strive-"
+        },
+        {
+          "name": "Zangief",
+          "game": "Street Fighter VI"
+        },
+        {
+          "name": "Iron Tager",
+          "game": "BlazBlue: Central Fiction"
+        }
+      ],
+      "games": [
+        {
+          "title": "Street Fighter VI",
+          "platform": "PC",
+          "played_since": "2023"
+        },
+        {
+          "title": "Tekken 8",
+          "platform": "PC",
+          "played_since": "2024"
+        },
+        {
+          "title": "Guilty Gear -Strive-",
+          "platform": "PC",
+          "played_since": "2021"
+        }
+      ],
+      "tournaments": [
+        {
+          "name": "EVO",
+          "year": 2023,
+          "location": "Las Vegas, USA"
+        },
+        {
+          "name": "Combo Breaker",
+          "year": 2022,
+          "location": "Chicago, USA"
+        },
+        {
+          "name": "Capcom Cup",
+          "year": 2021,
+          "location": "Online"
+        }
+      ]
+    },
+    {      
+        "nickname": "Snow",
+        "information": "Lorem impsum culiao bacán el whisp de whisp gaming jefe supremo JD como canguro culiao AAAAAAA",
+        "characters": [
+          {
+            "name": "Goldlewis Dickinson",
+            "game": "Guilty Gear -Strive-"
+          },
+          {
+            "name": "ABA",
+            "game": "Guilty Gear -Strive-"
+          },
+          {
+            "name": "Zangief",
+            "game": "Street Fighter VI"
+          },
+          {
+            "name": "Iron Tager",
+            "game": "BlazBlue: Central Fiction"
+          }
+        ],
+        "games": [
+          {
+            "title": "Street Fighter VI",
+            "platform": "PC",
+            "played_since": "2023"
+          },
+          {
+            "title": "Tekken 8",
+            "platform": "PC",
+            "played_since": "2024"
+          },
+          {
+            "title": "Guilty Gear -Strive-",
+            "platform": "PC",
+            "played_since": "2021"
+          }
+        ],
+        "tournaments": [
+          {
+            "name": "EVO",
+            "year": 2023,
+            "location": "Las Vegas, USA"
+          },
+          {
+            "name": "Combo Breaker",
+            "year": 2022,
+            "location": "Chicago, USA"
+          },
+          {
+            "name": "Capcom Cup",
+            "year": 2021,
+            "location": "Online"
+          }
+        ]
+      }]
+  }
