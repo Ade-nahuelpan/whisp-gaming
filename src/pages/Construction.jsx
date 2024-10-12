@@ -14,8 +14,9 @@ const Construction = () => {
   return (
     <Grid
       container
-      display="flex"
+      
       sx={{
+        display:"flex",
         backgroundImage: `url(${background})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -44,6 +45,8 @@ const Construction = () => {
             width: "256px",
             height: "auto",
             borderRadius: 2, // Example of adding rounded corners
+            ml:'auto',
+            mr:'auto'
           }}
         />
 

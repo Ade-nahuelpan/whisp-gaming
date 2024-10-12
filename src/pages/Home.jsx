@@ -16,9 +16,7 @@ function Home() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
-        padding: "20px",
-        
-        
+        padding: "20px"
       }}
     >
       <Grid container>
