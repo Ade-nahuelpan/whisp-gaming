@@ -44,7 +44,7 @@ const Construction = () => {
           sx={{
             width: "256px",
             height: "auto",
-            borderRadius: 2, // Example of adding rounded corners
+            borderRadius: 2, 
             ml:'auto',
             mr:'auto',
             cursor:'pointer'

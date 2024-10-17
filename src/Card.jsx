@@ -1,4 +1,3 @@
-import * as React from "react";
 import {
   Button,
   Typography,
@@ -15,7 +14,7 @@ export default function RecipeReviewCard() {
   return (
     <>
       {WgData.players.map((player, index) => {
-        const imagePath = `./public/${player.nickname}.png`;
+        const imagePath = `./src/assets/${player.nickname}.png`;
         return (
           <Grid item xs={6} sm={8} md={4} >
             <Card key={index}>

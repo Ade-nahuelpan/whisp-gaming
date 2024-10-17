@@ -1,8 +1,8 @@
-import React from "react";
 import { Grid, Button, Box } from "@mui/material";
 import background from "../assets/newFondo.png";
 import { useNavigate } from "react-router-dom";
 import Card from "../Card";
+import icon from "../assets/WGsmall.svg"
 
 function Home() {
   const navigate = useNavigate();
@@ -25,7 +25,7 @@ function Home() {
           <Grid container spacing={2}>
             <Card></Card>
           </Grid>
-        </Grid>
+        </Grid> 
         <Grid item xs={2} md={2}></Grid>
         <Button
           onClick={() => {
