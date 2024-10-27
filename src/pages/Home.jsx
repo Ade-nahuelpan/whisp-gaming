@@ -1,7 +1,7 @@
 import { Grid, Button, Box } from "@mui/material";
 import background from "../assets/newFondo.png";
 import { useNavigate } from "react-router-dom";
-import Card from "../Card";
+import Card from "../CardMap";
 import icon from "../assets/WGsmall.svg"
 
 function Home() {
